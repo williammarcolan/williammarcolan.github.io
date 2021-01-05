@@ -1,0 +1,203 @@
+*{
+    box-sizing: border-box;
+    border: 0;
+    padding: 0;
+    margin: 0;
+} 
+
+body {
+	background-color: #99ffcc;
+    background-image: url(../imgs/plano_fundo_imposto.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-repeat:repeat;
+ }
+
+form{
+    width: 50%;
+    margin-left: 25%;
+    color:white;
+}  
+
+input{
+    width: 100%;
+    margin-top: 2vw ;
+    margin-bottom: 2vw;
+    
+}
+
+button{
+    color: black;
+    background-color: rgba(39, 121, 228, 0.932);
+    position: relative;
+    left: 35vw;
+    height: 7vw;
+    width: 30vw;
+    font-size: 18px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+th{
+    width: 18vw;
+
+}
+
+td{
+
+    width:19vw ;
+    border-right: solid 1px black;
+    border-top: solid 1px black;
+    text-align: center;
+}
+
+label{
+    color: black;
+}
+
+#botão{
+
+}
+
+#formulario{
+    position: relative;
+    top: 2vw;
+}
+
+
+
+#tabela{
+    background-color: #54e7e7ec;
+    font-size: 15px;
+    width: 96.5%;
+    position: relative;
+    top: 3vw;
+    left: 2vw;
+    border: 1px solid #000000;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    font-weight: bold;
+}
+
+#formulario-div{
+    border: 3.5px solid #000000;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #54e7e7ec;
+    height: 33vw;
+}
+
+#logo{
+	width:25vw;
+	height:20vw;
+	background-image: url("../imgs/logo_Imposto.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+    display:inline-block;
+    border: 2px solid #000000;
+}
+
+#titulo{
+    position: relative;
+    left: 27vw;
+    bottom: 17vw;
+    border: 2px solid #000000;
+    width: 72vw;
+    height: 12vw;
+    font-size: 15px;
+    background-color: #26e255e8;
+    border-radius: 15px;  
+}
+
+#paragrafo{
+    position: relative;
+    top: 3vw;
+    left: 1.5vw;
+
+}
+
+footer{
+    background-color: #414040da;
+    text-align: center;
+    position: fixed;
+    bottom: 0 ;
+    width: 100%;
+}
+
+
+
+
+@media only screen and (min-width:1024px) {
+
+#logo{
+    width:20vw;
+    height:15vw;
+    background-image: url("../imgs/logo_Imposto.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    display:inline-block;
+    border: 2px solid #000000;
+}
+
+#titulo{
+    position: relative;
+    left: 24.5vw;
+    bottom: 14vw;
+    border: 2px solid #000000;
+    width: 70vw;
+    height: 12vw;
+    font-size: 40px;
+    background-color: #26e255e8;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#paragrafo{
+    position: relative;
+    top: 4vw;
+    left: 0vw;
+    font-family: Jazz LET, fantasy;
+}
+
+#formulario-div{
+    border: 3.5px solid #000000;
+    margin: 10px;
+    border-radius: 15px;
+    background-color: #54e7e7ec;
+    height: 19vw;
+    width: 70vw;
+    position: relative;
+    left: 15vw;
+    bottom: 8vw;
+    font-size: 35px;
+}
+
+button{
+    color: black;
+    background-color: rgba(39, 121, 228, 0.932);
+    position: relative;
+    bottom: 5vw;
+    left: 35vw;
+    height: 7vw;
+    width: 30vw;
+    font-size: 35px;
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+#tabela{
+    background-color: #54e7e7ec;
+    font-size: 25px;
+    position: relative;
+    top: -1vw;
+    left: 10vw;
+    border: 1px solid #000000;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+    font-weight: bold;
+    width: 80%;
+}
+
+}

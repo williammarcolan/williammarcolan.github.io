@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Site do condominio Alphaville"/>
+        <meta name="keywords" content="Alphaville, condominios, apartamentos"/>
+        <meta name="autor" content="William Kauan Marcolan"/>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="css/style.css"/>
+        <title> Trabalho De Imposto De Renda </title>
+    </head>
+    <body>
+        
+        <div id="logo">  </div>
+	    <div id="titulo"> <p id="paragrafo"> Calcule o Seu Imposto de Renda Mensal </p> </div>
+
+
+        <div id="formulario-div">
+            <form id="formulario">    
+                <label for="nome" id="lblnome">Nome completo:</label>
+                <input type="text" name="nome" id="nome" value="">
+                <label for="salarioBruto">Salário bruto:</label>
+                <input type="number" name="salarioBruto" id="salarioBruto">
+            </form>
+        </div>
+
+        <div id="botão">
+            <button onclick="calcular()" class="btn">Calcular</button>
+        </div>
+
+        <div id="tabela">
+            <table>
+                <thead>
+                    <th id= "nomeTabela">Nome</th>
+                    <th id= "brutoTabela">Salário Bruto</th>
+                    <th>Desconto INSS</th>
+                    <th>Desconto IRPF</th>
+                    <th>Salário Líquido</th>
+                </thead>
+            </table>
+        </div>
+            <br>
+
+    <footer>
+        William Kauan Marcolan © 2020.
+    </footer>
+    
+    </body>
+
+    <script src="script.js"> </script>
+
+</html>
